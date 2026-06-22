@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anya Makeover - Premium Bridal Makeup Artist</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css"/>
+  
+  <title>Anya Makeover - Premium Bridal Makeup</title>
+  <link rel="icon" href="images/logo.png">
+
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <!-- Logo -->
+      <div class="nav-logo">
+    <img src="images/logo.png" alt="Anny Makeover Logo">
+</div>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#outfits">Outfits</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Book Now CTA -->
+      <a href="#contact" class="btn-book-nav">Book Now</a>
+
+      <!-- Hamburger Menu (mobile) -->
+      <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+      <p class="hero-eyebrow">— Look Luxurious, Pay Less —</p>
+      <h1 class="hero-heading">Beauty<br><span class="hero-accent">That Speak For Itself</span></h1>
+      <p class="hero-subtext">Professional Makeup Artist in Faridabad</p>
+
+      <!-- Service Badges -->
+      <div class="hero-badges">
+        <span class="badge"><i class="fas fa-crown"></i> Bridal Makeup</span>
+        <span class="badge"><i class="fas fa-star"></i> Party Makeup</span>
+        <span class="badge"><i class="fas fa-camera"></i> HD Makeup</span>
+        <span class="badge"><i class="fas fa-tshirt"></i> Outfit Rental</span>
+      </div>
+
+      <!-- CTA Buttons -->
+      <div class="hero-ctas">
+        <a href="#contact" class="btn-primary"><i class="far fa-calendar-alt"></i> Book Appointment</a>
+        <a href="#portfolio" class="btn-outline">View Portfolio</a>
+      </div>
+    </div>
+
+    <!-- Background image via CSS -->
+    <div class="hero-image-block"></div>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/917011270602" class="whatsapp-float" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </section>
+
+  <!-- ===================== ABOUT SECTION ===================== -->
+  <section class="about" id="about">
+    <div class="container">
+
+      <!-- Section Label -->
+      <div class="section-label">Who I Am</div>
+
+      <div class="about-grid">
+
+        <!-- About Image -->
+        <div class="about-image-wrap">
+          <img
+            src="images/her.jpg"
+            alt="Anny, Professional Makeup Artist"
+            class="about-img"
+          />
+          <!-- add anny did image here -->
+          <div class="about-badge-float">
+            <span class="badge-num">5+</span>
+            <span class="badge-label">Years Experience</span>
+          </div>
+        </div>
+
+        <!-- About Text -->
+        <div class="about-text">
+          <h2 class="section-heading">Meet <span class="accent-text">Anny</span></h2>
+          <p class="about-tagline">Enhancing Your Natural Beauty 🌸</p>
+          <p class="about-body">
+            <b>I am Anny, a certified bridal makeup artist based in Faridabad with over 5 years of experience transforming brides into the most radiant version of themselves. My passion lies in enhancing natural beauty with the finest international products and the most delicate techniques.</b>
+          </p>
+          <p class="about-body">
+            <b>From intimate mehandi ceremonies to grand wedding receptions, I bring precision, artistry, and dedication to every look. Each client leaves my chair feeling confident, beautiful, and unforgettable.</b>
+          </p>
+
+          <!-- Stats -->
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">1000+</span>
+              <span class="stat-label">Happy Brides</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">20+</span>
+              <span class="stat-label">Premium Outfits</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">5★</span>
+              <span class="stat-label">Avg. Rating</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn-primary">Book a Session</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES SECTION ===================== -->
+  <section class="services" id="services">
+    <div class="container">
+
+      <div class="section-label">What I Do</div>
+      <h2 class="section-heading centered">Our <span class="accent-text">Services</span></h2>
+      <div class="ornament"></div>
+
+      <!-- Service Cards Grid -->
+      <div class="services-grid">
+
+        <!-- Card 1 -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?w=400&q=80" alt="Bridal Makeup" />
+          </div>
+          <div class="service-icon"><i class="fas fa-crown"></i></div>
+          <h3><b>Bridal Makeup</b></h3>
+          <p><b>Complete bridal makeup with premium products for your special day.</b></p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1500840216050-6ffa99d75160?w=400&q=80" alt="Party Makeup" />
+          </div>
+          <div class="service-icon"><i class="fas fa-star"></i></div>
+          <h3><b>Party Makeup</b></h3>
+          <p><b>Glamorous makeup for parties, birthdays and special occasions.</b></p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1457972729786-0411a3b2b626?w=400&q=80" alt="Reception Makeup" />
+          </div>
+          <div class="service-icon"><i class="fas fa-gem"></i></div>
+          <h3><b>Reception Makeup</b></h3>
+          <p><b>Elegant reception looks that make you stand out from the crowd.</b></p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=400&q=80" alt="HD Makeup" />
+          </div>
+          <div class="service-icon"><i class="fas fa-camera"></i></div>
+          <h3><b>HD Makeup</b></h3>
+          <p><b>High definition makeup for a flawless look in any light.</b></p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&q=80" alt="Engagement Makeup" />
+          </div>
+          <div class="service-icon"><i class="fas fa-ring"></i></div>
+          <h3><b>Engagement Makeup</b></h3>
+          <p><b>Subtle yet stunning looks for your engagement ceremony.</b></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PORTFOLIO SECTION ===================== -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+
+      <div class="section-label">My Work</div>
+      <h2 class="section-heading centered">Portfolio</h2>
+      <div class="ornament"></div>
+
+      <!-- Filter Tabs -->
+      <div class="portfolio-tabs">
+        <button class="tab-btn active" onclick="filterGallery('all', this)">All</button>
+        <button class="tab-btn" onclick="filterGallery('bridal', this)">Bridal</button>
+        <button class="tab-btn" onclick="filterGallery('party', this)">Party</button>
+        <button class="tab-btn" onclick="filterGallery('reception', this)">Reception</button>
+        <button class="tab-btn" onclick="filterGallery('hd', this)">HD Makeup</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+
+        <!-- Visible Initially (6 items) -->
+        <div class="gallery-item" data-cat="bridal">
+          <img src="images/bridal2.jpg" alt="Bridal Look 1" />
+          <div class="gallery-overlay"><span>Bridal</span></div>
+        </div>
+
+
+        <div class="gallery-item" data-cat="reception">
+          <img src="images/reception1.jpg" alt="Reception Look" />
+          <div class="gallery-overlay"><span>Reception</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="party">
+          <img src="images/party1.jpg" alt="Party Look" />
+          <div class="gallery-overlay"><span>Party</span></div>
+        </div>
+ 
+        <div class="gallery-item" data-cat="hd">
+          <img src="images/hd1.jpg" alt="HD Makeup" />
+          <div class="gallery-overlay"><span>HD Makeup</span></div>
+        </div>
+
+        
+
+        <!-- Hidden initially (revealed by "View More") -->
+
+        <!-- upload images each 6 at least  -->
+
+        <div class="gallery-item hidden-item" data-cat="bridal">
+          <img src="images/bridal1.jpg" alt="Bridal Look 4" />
+          <div class="gallery-overlay"><span>Bridal</span></div>
+        </div>
+
+        <div class="gallery-item" data-cat="bridal">
+          <img src="images/bridal3.jpg" alt="Bridal Look 2" />
+          <div class="gallery-overlay"><span>Bridal</span></div>
+        </div>
+
+        <div class="gallery-item hidden-item" data-cat="party">
+          <img src="images/party2.jpg" alt="Party Look 2" />
+          <div class="gallery-overlay"><span>Party</span></div>
+        </div>
+
+        <div class="gallery-item hidden-item" data-cat="reception">
+          <img src="images/reception2.jpg" alt="Reception Look 2" />
+          <div class="gallery-overlay"><span>Reception</span></div>
+        </div>
+
+        <div class="gallery-item hidden-item" data-cat="hd">
+          <img src="images/hd2.jpg" alt="HD Makeup 2" />
+          <div class="gallery-overlay"><span>HD Makeup</span></div>
+        </div>
+
+           <div class="gallery-item hidden-item" data-cat="hd">
+    <img src="images/hd3.jpg" alt="HD Makeup 3">
+    <div class="gallery-overlay">
+        <span>HD Makeup</span>
+    </div>
+    </div>
+
+        
+
+        <div class="gallery-item hidden-item" data-cat="party">
+          <img src="images/party3.jpg" alt="Party Look 3" />
+          <div class="gallery-item party-item hidden-item"><span>Party</span></div>
+        </div>
+
+        <div class="gallery-item hidden-item" data-cat="reception">
+          <img src="images/reception3.jpg" alt="Reception Look 3" />
+          <div class="gallery-overlay"><span>Reception</span></div>
+
+       
+</div>
+
+        </div>
+
+      <!-- View More Button -->
+      <div class="gallery-cta">
+        <button class="btn-primary" id="viewMoreBtn" onclick="showMoreGallery()">View More Looks</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== OUTFIT RENTAL SECTION ===================== -->
+  <section class="outfits" id="outfits">
+    <div class="container">
+
+      <div class="outfit-intro">
+        <div>
+          <div class="section-label light">Premium Collection</div>
+          <h2 class="section-heading light">Outfit <span class="accent-text">Rental</span></h2>
+          <div class="ornament"></div>
+          <p class="outfit-desc">We provide beautiful and premium quality outfits on rent for every occasion.</p>
+          <button class="btn-outline-light" id="viewMoreOutfitsBtn" onclick="showMoreOutfits()">View All Outfits</button>
+        </div>
+
+        <!-- Outfit Cards -->
+        <div class="outfit-cards" id="outfitCards">
+
+          <!-- Visible outfits initially -->
+          <div class="outfit-card">
+            <div class="outfit-img-circle">
+              <img src="images/lehanga.jpg" alt="Bridal Lehenga" />
+            </div>
+            <p class="outfit-name">Gown</p>
+            <a href="#contact" class="btn-enquire">Enquire Now</a>
+          </div>
+
+          <div class="outfit-card">
+            <div class="outfit-img-circle">
+              <img src="images/sare.jpg" alt="Saree" />
+            </div>
+            <p class="outfit-name">Ivory Lehenga</p>
+            <a href="#contact" class="btn-enquire">Enquire Now</a>
+          </div>
+
+          <div class="outfit-card">
+            <div class="outfit-img-circle">
+              <img src="images/gown.jpg" alt="Gown" />
+            </div>
+            <p class="outfit-name">Embroidered Lehenga</p>
+            <a href="#contact" class="btn-enquire">Enquire Now</a>
+          </div>
+
+          <div class="outfit-card">
+            <div class="outfit-img-circle">
+              <img src="images/anarkali.jpg" alt="Anarkali" />
+            </div>
+            <p class="outfit-name">Maroon Dress</p>
+            <a href="#contact" class="btn-enquire">Enquire Now</a>
+          </div>
+
+          <div class="outfit-card">
+            <div class="outfit-img-circle">
+              <img src="images/western.jpg" alt="Indo Western" />
+            </div>
+            <p class="outfit-name">White Dress</p>
+            <a href="#contact" class="btn-enquire">Enquire Now</a>
+          </div>
+
+          <!-- Hidden outfit cards -->
+          <!-- idhar baad m add kr dena  -->
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+ <!-- ===================== REVIEWS SECTION ===================== -->
+<section class="reviews" id="reviews">
+  <div class="container">
+
+    <div class="section-label">Client Love</div>
+    <h2 class="section-heading centered">What Clients Say</h2>
+    <div class="ornament"></div>
+
+    <div class="reviews-grid">
+
+      <!-- Review 1 -->
+      <div class="review-card">
+        <div class="review-quote"><i class="fas fa-quote-left"></i></div>
+
+        <div class="review-stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+
+        <p class="review-text">
+          "Bahut hi zyada acha makeup tha ❤️ Mujhe doll look chahiye tha aur exactly
+          waise hi result mila. Sab log mujhe dekhkar surprise ho gaye aur gharwale
+          bhi shock ho gaye. Mujhe khud believe nahi ho raha tha ki main itni
+          beautiful lag sakti hu. Thank you so much Anny Makeover, truly the best."
+        </p>
+
+        <div class="reviewer">
+          <div>
+            <span class="reviewer-name">Priya</span>
+            <span class="reviewer-type">Bridal Client</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="review-card">
+        <div class="review-quote"><i class="fas fa-quote-left"></i></div>
+
+        <div class="review-stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+
+        <p class="review-text">
+          "Maine Anny Makeover isliye choose kiya kyuki makeup artist ko dekhkar hi
+          samajh aa jata hai ki unka work kaisa hoga. Makeup aur dressing dono bahut
+          professional the. Mujhe pura confidence tha aur result expected se bhi
+          better mila. Highly recommended ❤️"
+        </p>
+
+        <div class="reviewer">
+          <div>
+            <span class="reviewer-name">kajal</span>
+            <span class="reviewer-type">HD Makeup Client</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="review-card">
+        <div class="review-quote"><i class="fas fa-quote-left"></i></div>
+
+        <div class="review-stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+
+        <p class="review-text">
+          "Honestly bahut acha makeup laga. Party se raat ko ghar aane ke baad bhi
+          makeup bilkul fresh tha aur remove karne ka mann hi nahi kar raha tha.
+          Makeup set hone ke baad aur bhi zyada beautiful lag raha tha. Amazing
+          experience ❤️"
+        </p>
+
+        <div class="reviewer">
+          <div>
+            <span class="reviewer-name">Kanika Chandila</span>
+            <span class="reviewer-type">Party Makeup Client</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Dots -->
+      <div class="review-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+  </div>
+</section>
+
+  <!-- ===================== CONTACT / BOOKING FORM ===================== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="section-label light">Reach Out</div>
+          <h2 class="section-heading light">Get In <span class="accent-text">Touch</span></h2>
+          <div class="ornament"></div>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <span class="ci-label">Phone</span>
+                <span class="ci-value"><b>Contact On Whatapp Only</b></span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="ci-label">Email</span>
+                <span class="ci-value">aanny7963@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="ci-label">Location</span>
+                <span class="ci-value">Sector 46, Faridabad, Haryana</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-instagram"></i>
+              <div>
+                <span class="ci-label">Instagram</span>
+                <span class="ci-value">@anny_makeover19</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Artist portrait in contact section -->
+          <div style="margin-top: 90px;" class="contact-portrait">
+            <img src="images/work.png" alt="Anya Makeover Artist" />
+          </div>
+        </div>
+
+        <!-- Booking Form -->
+        <div class="booking-form">
+          <h2 class="section-heading">Book Your <span class="accent-text">Appointment</span></h2>
+
+          <!--
+            ==================================================
+            GOOGLE SHEETS INTEGRATION POINT
+            To connect this form to Google Sheets:
+            1. Create a Google Sheet
+            2. Go to Extensions > Apps Script
+            3. Write a doPost() function to accept POST data
+            4. Deploy as Web App and copy the URL
+            5. Replace the fetch() call in script.js with the Google Apps Script URL
+            ==================================================
+          -->
+          <div class="form-wrap" id="bookingForm">
+
+            <div class="form-row">
+              <div class="form-group">
+                <input nametype="text" id="clientName" placeholder="Your Name" />
+              </div>
+              <div class="form-group">
+                <input type="tel" id="clientPhone" placeholder="Phone Number" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+    <label for="eventDate">Wedding / Event Date *</label>
+    <input type="date" id="eventDate">
+</div>
+              <div class="form-group">
+                <select id="makeupType">
+                  <option value="" disabled selected>Makeup Type</option>
+                  <option value="bridal">Bridal Makeup</option>
+                  <option value="party">Party Makeup</option>
+                  <option value="reception">Reception Makeup</option>
+                  <option value="hd">HD Makeup</option>
+                  <option value="engagement">Engagement Makeup</option>
+                  <option value="outfit">Outfit Rental Only</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group full-width">
+              <textarea id="clientMessage" placeholder="Message (Optional)" rows="4"></textarea>
+            </div>
+
+            <!-- Form Success Message (hidden by default) -->
+            <div id="formSuccess" class="form-success hidden-item">
+              Bookings are currently not accepted via WhatsApp only
+            </div>
+
+            <button class="btn-submit" onclick="submitForm()">
+              <i class="fas fa-paper-plane"></i> Send Booking Request
+            </button>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container footer-grid">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <div class="nav-logo footer-logo">
+          <img src="images/logo.png" alt="Anny Makeover Logo">
+        </div>
+        <p class="footer-tagline"><b>Making You Gorgeous<br>For Your Special Moments.</b></p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-links">
+        <h4><strike>Quick Links</strike></h4>
+        <ul>
+          <br>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+
+        <ul>
+          <br>
+          <li><a href="#outfits">Outfits</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Follow Me -->
+      <div class="footer-social">
+        <h4>Follow Me</h4>
+        <br>
+
+        <div class="social-icons">
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/anny_makeover19?igsh=MTJnaXdyZ2JubXJhcw==" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <!-- WhatsApp -->
+          <a href="https://wa.me/917011270602" target="_blank" class="social-icon">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+
+          <!-- Facebook -->
+          <a href="" target="_blank" class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+
+        </div>
+      </div>
+
+    </div> <!-- ✅ footer-grid close -->
+
+  </div> <!-- ✅ footer-top close -->
+
+  <!-- ================= FOOTER BOTTOM ================= -->
+  <!-- CHANGE: footer-grid ke bahar le aaye -->
+  <div class="footer-bottom">
+    <p>© 2026 Anny Makeover, All Rights Reserved.</p>
+    <p><b>Designed By Aman Bhati And Aryan Bhati</b> <i class="fas fa-heart"></i></p>
+  </div>
+
+</footer>
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" onclick="scrollToTop()">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
