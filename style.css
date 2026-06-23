@@ -345,7 +345,7 @@ ul { list-style: none; }
   top: 0;
   width: 60%;
   height: 100%;
-  background: url('images/hero.jpg');
+  background: url('hero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 80% center;
